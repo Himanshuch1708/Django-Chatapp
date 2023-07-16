@@ -1,41 +1,48 @@
-# Chatapp with Django, React, and Channels
+# DjangoConnect
 
 This is an example chat application built with Django, React, and Django Channels. The application uses websockets to enable real-time communication between clients.
+
+## Prerequisites
+
+Before we begin, you should have the following installed on your system:
+
+- Python 3.6 or higher
+- Node.js 14 or higher
+- Django 3 or higher
+- Django Channels 3 or higher
+- React.js
+- PostgreSQL
+- WebSocket API
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-- Docker
-
 ### Installing
 
 1. Clone the repository:
 
-`git clone https://github.com/wynnteo/chatapp.git` <br/>
-`cd chatapp`
+   ```bash
+   git clone https://github.com/Himanshuch1708/Django-Chatapp.git
+   cd Django-Chatapp
 
 2. Build the Docker images:
 
-`docker-compose build`
+    ```bash
+    docker-compose build
 
 3. Run the Docker containers:
 
-`docker-compose up`
-
-This will start the Django development server and the React development server.
+   ```bash
+   docker-compose up
 
 4. Access the chatapp:
 
-http://localhost <br/>
-This will open the chatapp in your browser.
+Open your web browser and visit http://localhost. This will open the chatapp.
 
-### Usage
+## Demo
 
-Once you have the chatapp running, you can open multiple browser windows to simulate different clients. When you send a message from one client, all other clients that are connected to the same chatroom will receive the message in real-time.
+You can find a demo of the chat application below:
 
-### Author
+![Demo](https://github.com/Himanshuch1708/Django-Chatapp/raw/main/demo.png)
 
-Wynn Teo
